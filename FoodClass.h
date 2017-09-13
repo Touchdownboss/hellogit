@@ -1,6 +1,8 @@
 #ifndef FOODCLASS_H
 #define FOODCLASS_H
 #include <string>
+using namespace std;
+
 class Foods
 {
 	private:
@@ -14,3 +16,4 @@ class Foods
 		string getType();
 		void setType(string f);
 };
+#endif

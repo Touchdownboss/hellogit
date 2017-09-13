@@ -1,4 +1,6 @@
 #include "FoodClass.h"
+#include <string>
+using namespace std;
 
 string Foods::getType()
 {
@@ -23,5 +25,5 @@ void Foods::setPos(int i)
 Foods::Foods(int i, string f)
 {
 	pos=i;
-	string=f;
+	type=f;
 }
