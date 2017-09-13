@@ -1,6 +1,6 @@
 #ifndef FOODCLASS_H
 #define FOODCLASS_H
-#include <string>
+
 class Foods
 {
 	private:
@@ -10,7 +10,7 @@ class Foods
 	public:
 		Foods(int i, string f);
 		int getPos ();
-		void setPos(int i);
+		void setPos(int);
 		string getType();
-		void setType(string f);
+		void setType(string);
 };

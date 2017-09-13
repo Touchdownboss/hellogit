@@ -1,5 +1,4 @@
-#include 'FoodClass.h'
-#include <string>
+#include "FoodClass.h"
 
 string Foods::getType()
 {
